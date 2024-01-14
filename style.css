@@ -1,0 +1,453 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap'); */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Raleway;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.main input {
+    padding: 0px 25px;
+}
+
+.page-1 {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.page1-content {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: rgb(0 0 0 / 52%);
+    color: white;
+}
+
+.page1-inner {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40vh;
+}
+
+.page1-inner h1 {
+    font-size: 8.2vh;
+    width: 70%;
+    font-weight: 800;
+}
+
+.page1-inner h3 {
+    font-size: 3.9vh;
+    padding: 3vh 0vh;
+    color: rgb(229, 228, 228);
+    width: 70%;
+    font-weight: 400;
+}
+
+.page1-inner h2 {
+    font-size: 3vh;
+    padding: 3vh 0vh;
+    width: 70%;
+    font-weight: 400;
+}
+
+/* .input-1::placeholder{
+    margin-left: 20px;
+} */
+
+.input-1 {
+    text-align: center;
+    padding: 15px 0px;
+    gap: 5px;
+}
+
+.input-1 input {
+    width: 27%;
+    height: 8.6vh;
+    background-color: rgb(16 16 16 / 85%);
+    border: 1px solid rgb(148, 148, 148);
+    border-radius: 4px;
+    margin: 0px 7px;
+    font-size: 2.8vh;
+    color: white;
+}
+
+.input-1 button {
+    height: 8.6vh;
+    padding: 0vh 6vh;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 3.4vh;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.input-1 button:hover {
+    background-color: rgb(223, 18, 18);
+    transition: all 1s ease;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 170px;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+
+}
+
+nav img {
+    width: 25vh;
+}
+
+.btn button  {
+    padding: 8px 17px;
+    background-color: red;
+    border: none;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    font-size: 2.5vh;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.btn button:hover {
+    background-color: rgb(223, 18, 18);
+    transition: all 1s ease;
+}
+
+.btn .btn-inner {
+    padding: 8px 25px;
+    background-color: rgb(16 16 16 / 85%);
+    border: 1px solid rgb(158, 156, 156);
+}
+
+.image {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.page-2 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: black;
+}
+
+.page2-content {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 10vh 24vh;
+    background-color: black;
+    border-top: 2vh solid rgb(79, 78, 78);
+}
+
+.page2-content video {
+    width: 37vw;
+    height: 64vh;
+}
+
+.img img {
+    position: absolute;
+    width: 42%;
+    height: 68%;
+}
+
+.para {
+    padding-top: 22vh;
+}
+
+.para h1 {
+    font-size: 8.5vh;
+    font-weight: 800;
+    padding: 3vh 0vh;
+}
+
+.para p {
+    font-size: 3.5vh;
+    line-height: 5.4vh;
+    font-weight: 400;
+    width: 80%;
+}
+
+.page-3 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: black;
+}
+
+.page3-content {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 10vh 15vh;
+    background-color: black;
+    border-top: 2vh solid rgb(79, 78, 78);
+}
+
+.img-3 img {
+    width: 100%;
+    height: 100%;
+}
+
+.para-3 {
+    padding-top: 18vh;
+}
+
+.para-3 h1 {
+    font-size: 8.5vh;
+    font-weight: 800;
+    padding: 3vh 0vh;
+    width: 80%;
+}
+
+.para-3 p {
+    font-size: 3.5vh;
+    line-height: 5.4vh;
+    font-weight: 400;
+    width: 80%;
+}
+
+
+.page-4 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: black;
+}
+
+.page4-content {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 10vh 24vh;
+    background-color: black;
+    border-top: 2vh solid rgb(79, 78, 78);
+}
+
+.page4-content video {
+    width: 37vw;
+    height: 64vh;
+}
+
+.img-4 img {
+    position: absolute;
+    width: 42%;
+    height: 68%;
+}
+
+.para-4 {
+    padding-top: 22vh;
+}
+
+.para-4 h1 {
+    font-size: 8.5vh;
+    font-weight: 800;
+    padding: 3vh 0vh;
+}
+
+.para-4 p {
+    font-size: 3.5vh;
+    line-height: 5.4vh;
+    font-weight: 400;
+    width: 80%;
+}
+
+
+.page-5 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: black;
+}
+
+.page5-content {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 10vh 5vh;
+    background-color: black;
+    border-top: 2vh solid rgb(79, 78, 78);
+}
+
+.img-5 img {
+    width: 100%;
+    height: 100%;
+}
+
+.para-5 {
+    padding-top: 18vh;
+    width: 50%;
+}
+
+.para-5 h1 {
+    font-size: 8.5vh;
+    font-weight: 800;
+    padding: 3vh 0vh;
+}
+
+.para-5 p {
+    font-size: 3.5vh;
+    line-height: 5.4vh;
+    font-weight: 400;
+    width: 80%;
+}
+
+.page-6 {
+    width: 100%;
+    height: 150vh;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    border-top: 2vh solid rgb(79, 78, 78);
+}
+
+.page-6 h1 {
+    text-align: center;
+    font-size: 8.6vh;
+    font-weight: 800;
+    padding-top: 14vh;
+    color: white;
+}
+
+.page6-content {
+    padding-top: 4vh;
+}
+
+.box1 {
+    text-align: center;
+    padding: 2vh 10vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(49, 49, 49);
+    width: 75%;
+    height: 50%;
+    margin: 2vh auto;
+    align-items: center;
+    cursor: pointer;
+}
+
+.box1:hover {
+    background-color: rgba(79, 78, 78, 0.861);
+    ;
+}
+
+.page6-content i {
+    color: white;
+    font-size: 8vh;
+    cursor: pointer;
+}
+
+.page6-content span {
+    color: white;
+    font-size: 4vh;
+    font-weight: 400;
+}
+
+.page6-inner {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2vh;
+}
+
+.page6-inner h2 {
+    font-size: 3vh;
+    padding: 3vh 0vh;
+    width: 70%;
+    color: white;
+    font-weight: 400;
+}
+
+.input-2 {
+    text-align: center;
+    padding: 15px 0px;
+    gap: 5px;
+}
+
+.input-2 input {
+    width: 27%;
+    height: 8.6vh;
+    background-color: rgb(16 16 16 / 85%);
+    border: 1px solid rgb(148, 148, 148);
+    border-radius: 4px;
+    margin: 0px 7px;
+    font-size: 2.8vh;
+    color: white;
+}
+
+.input-2 button {
+    height: 8.6vh;
+    padding: 0vh 6vh;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 3.4vh;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.input-2 button:hover {
+    background-color: rgb(223, 18, 18);
+    transition: all 1s ease;
+}
+
+footer {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    color: rgb(151, 148, 148);
+    border-top: 2vh solid rgb(79, 78, 78);
+}
+
+.last-part {
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+     flex-direction: row;
+     /* gap: 10vh;  */
+     padding: 0vh 20vh;
+     flex-wrap: wrap;
+     cursor: pointer;
+    text-decoration: underline;
+}
+
+footer h2{
+    padding: 10vh 31vh;
+    font-weight: 400;
+    font-size: 3vh;
+}
+
+.foot-1{
+    margin: auto;
+}
+.foot-1 h4{
+    padding: 2vh 0vh;
+}
+.foot-2{
+    margin: auto;
+}
+.foot-2 h4{
+    padding: 2vh 0vh;
+}
